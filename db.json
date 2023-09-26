@@ -1,11 +1,22 @@
 {
     "songs": [
       {
-        "id": 1
-        
+        "id": 1,
+        "name": "Summer Soft",
+        "artist": "Stevie Wonder",
+        "genre": "Pop",
+        "songKey": "Eb",
+        "playerNotes":"Song starts of initially in Eb and modulates as you transition to the Chorus. Watch for intensity changes when transitioning between song sections.",
+        "videoReference": "link"
       },
       {
-        "id": 2
+        "id": 2,
+        "name": "Together",
+        "artist": "Peter Cottentale",
+        "genre": "R&B + Rap",
+        "songKey": "C",
+        "playerNotes": "Song starts off with low intensity. Stay on with strings and percussion till after singer solo. Add in piano and bass when rapping begins and increase intensity. End with stop at end of song.",
+        "videoReference": "link"
       }
     ]
   }

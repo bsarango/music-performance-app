@@ -3,6 +3,7 @@ import {Route, Switch} from "react-router-dom"
 import './App.css';
 import Home from './components/Home';
 import PerformanceList from './components/PerformanceList';
+import SongSubmitForm from "./components/SongSubmitForm"
 
 function App() {
   return (

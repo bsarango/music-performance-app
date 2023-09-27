@@ -1,11 +1,14 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import Song from "./components/Song"
 
 function PerformanceList(){
+
+    const [songList, setSongList] = useState([])
 
     useEffect(()=>{
         fetch(`http://localhost:3000/songs`)
         .then(resp=>resp.json())
-        .then(songs=>console.log("Fetched songs"))
+        .then(songs=>setSongList(songs))
     },[])
 
     return(

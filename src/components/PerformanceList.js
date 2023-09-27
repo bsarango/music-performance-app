@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Song from "./components/Song"
+import Song from "./Song"
 
 function PerformanceList(){
 

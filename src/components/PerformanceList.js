@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import {NavLink} from "react-router-dom";
 import Song from "./Song"
 
 function PerformanceList(){
@@ -13,14 +12,14 @@ function PerformanceList(){
     },[])
 
     const songsToDisplay = songList.map((song)=>{
-        return <NavLink to="">{song.name}</NavLink>
+        return <Song key={song.id} name={song.name} songKey={songKey} artist={song.artist}/>
     })
 
     return(
         <div>
             <h1>Song List</h1>
             <h2>Select a Song for additional info, notes, and cues</h2>
-
+            {songsToDisplay}
         </div>
     )
 }

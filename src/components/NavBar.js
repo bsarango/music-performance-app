@@ -14,7 +14,7 @@ function NavBar(){
     }
 
     return(
-        <div>
+        <nav>
             <NavLink to="/"
                 exact
                 styles = {linkStyles}
@@ -36,7 +36,7 @@ function NavBar(){
             >
                 Add New Song
             </NavLink>
-        </div>
+        </nav>
     )
 }
 

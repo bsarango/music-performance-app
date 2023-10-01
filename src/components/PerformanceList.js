@@ -12,11 +12,11 @@ function PerformanceList(){
     },[])
 
     const songsToDisplay = songList.map((song)=>{
-        return <Song key={song.id} name={song.name} songKey={songKey} artist={song.artist}/>
+        return <Song key={song.id} id={song.id} name={song.name} songKey={song.songKey} artist={song.artist}/>
     })
 
     return(
-        <div>
+        <div className="performanceContainer">
             <h1>Song List</h1>
             <h2>Select a Song for additional info, notes, and cues</h2>
             {songsToDisplay}

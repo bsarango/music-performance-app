@@ -1,8 +1,12 @@
 import React from "react";
 
-function Song(){
+function Song({id, name,songKey,artist}){
     return(
-        <h1>Song</h1>
+        <div className="songContainer">
+            <h1>{name}</h1>
+            <h3>{songKey}</h3>
+            <h3>{artist}</h3>
+        </div>   
     )
 }
 

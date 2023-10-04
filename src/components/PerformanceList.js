@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Song from "./Song"
+import SongDetails from "./SongDetails";
 
 function PerformanceList(){
 

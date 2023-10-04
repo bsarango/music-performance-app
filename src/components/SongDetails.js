@@ -11,6 +11,7 @@ function SongDetails(){
 
     return(
         <h2>Current Song Details</h2>
+
     )
 }
 

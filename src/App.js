@@ -5,6 +5,7 @@ import Home from './components/Home';
 import PerformanceList from './components/PerformanceList';
 import SongSubmitForm from "./components/SongSubmitForm"
 import NavBar from "./components/NavBar"
+import SongDetails from "./components/SongDetails";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route path="/performanceList">
             <PerformanceList/>
+          </Route>
+          <Route path="/performanceList/:id">
+            <SongDetails/>
           </Route>
           <Route path="/submitForm">
             <SongSubmitForm/>

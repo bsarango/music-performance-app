@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "react-router-dom"
 
 function Song({id, name,songKey,artist}){
     return(
@@ -6,6 +7,7 @@ function Song({id, name,songKey,artist}){
             <h1>{name}</h1>
             <h3>{songKey}</h3>
             <h3>{artist}</h3>
+            <Link to=`/son`></Link>
         </div>   
     )
 }

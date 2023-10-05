@@ -17,11 +17,11 @@ function App() {
             App
             <Home/>
           </Route>
-          <Route path="/performanceList">
-            <PerformanceList/>
-          </Route>
           <Route path="/performanceList/:id">
             <SongDetails/>
+          </Route>
+          <Route exact path="/performanceList">
+            <PerformanceList/>
           </Route>
           <Route path="/submitForm">
             <SongSubmitForm/>

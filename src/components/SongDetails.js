@@ -9,7 +9,7 @@ function SongDetails(){
         fetch(`http://localhost:3000/songs/${params.id}`)
         .then(resp=>resp.json())
         .then(songDetails=>setSelectedSong(songDetails))
-    },[params.id])
+    },[])
 
     return(
         <div>

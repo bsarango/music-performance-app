@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import {Route, Switch} from "react-router-dom"
 import './App.css';
 import Home from './components/Home';
@@ -8,6 +8,19 @@ import NavBar from "./components/NavBar"
 import SongDetails from "./components/SongDetails";
 
 function App() {
+
+  const [songList, setSongList] = useState([])
+
+  function updateSongList(newSong){
+    setSongList(...songList,newSong)
+  }
+
+  useEffect(()=>{
+    fetch(`http://localhost:3000/songs`)
+    .then(resp=>resp.json())
+    .then(songs=>setSongList(songs))
+  },[])
+
   return (
     <div>
       <NavBar/>
@@ -21,10 +34,10 @@ function App() {
             <SongDetails/>
           </Route>
           <Route exact path="/performanceList">
-            <PerformanceList/>
+            <PerformanceList songList={songList} />
           </Route>
           <Route path="/submitForm">
-            <SongSubmitForm/>
+            <SongSubmitForm addNewSong={updateSongList}/>
           </Route>
         </div>
       </Switch>

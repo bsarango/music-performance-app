@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-function SongSubmitForm({updateSongList}){
+function SongSubmitForm({addNewSong}){
 
     const [newSong, setNewSong]=useState({
         name:"",
@@ -36,7 +36,7 @@ function SongSubmitForm({updateSongList}){
             body: JSON.stringify(newSongData),
         })
         .then(resp=>resp.json())
-        .then(newPerformanceList=>updateSongList(newSongData))
+        .then(newPerformanceList=>addNewSong(newSongData))
     }
 
     return(

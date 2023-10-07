@@ -18,7 +18,7 @@ function SongDetails(){
             <h3>{selectedSong.artist}</h3>
             <h3>{selectedSong.songKey}</h3>
             <h4>{selectedSong.playerNotes}</h4>
-            <h2>{selectedSong.videoReference}</h2>
+            <a href={selectedSong.videoReference}> A Video For Reference!</a>
         </div>
     )
 }

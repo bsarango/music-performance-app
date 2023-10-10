@@ -11,15 +11,15 @@ function App() {
 
   const [songList, setSongList] = useState([])
 
-  function updateSongList(newSong){
-    setSongList(...songList,newSong)
-  }
-
   useEffect(()=>{
     fetch(`http://localhost:3000/songs`)
     .then(resp=>resp.json())
     .then(songs=>setSongList(songs))
   },[])
+
+  function updateSongList(newSong){
+    setSongList(...songList,newSong)
+  }
 
   return (
     <div>

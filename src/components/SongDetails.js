@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import {useParams} from "react-router-dom";
 
 function SongDetails(){
-    const [selectedSong, setSelectedSong] = useState([]);
+    const [selectedSong, setSelectedSong] = useState({});
     const params = useParams()
 
     useEffect(()=>{

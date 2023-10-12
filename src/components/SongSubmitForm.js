@@ -36,7 +36,7 @@ function SongSubmitForm({addNewSong}){
             body: JSON.stringify(newSongData),
         })
         .then(resp=>resp.json())
-        .then(newPerformanceList=>addNewSong(newSongData))
+        .then(newSongObj=>addNewSong(newSongObj))
     }
 
     return(

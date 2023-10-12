@@ -7,7 +7,7 @@
       "genre": "Pop",
       "songKey": "Eb",
       "playerNotes": "Song starts of initially in Eb and modulates as you transition to the Chorus. Watch for intensity changes when transitioning between song sections.",
-      "videoReference": "link"
+      "videoReference": "https://youtu.be/BcRoNGsI07o?si=zq97GC4xlBzQvq5J"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "genre": "R&B + Rap",
       "songKey": "C",
       "playerNotes": "Song starts off with low intensity. Stay on with strings and percussion till after singer solo. Add in piano and bass when rapping begins and increase intensity. End with stop at end of song.",
-      "videoReference": "link"
+      "videoReference": "https://youtu.be/95Id8XdUegE?si=YCAKOrOfAano9L4R"
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "genre": "R&B",
       "songKey": "A#",
       "playerNotes": "Follow click track of the song. Increase intensity and bring in other instruments in chorus parts. Do cuts during raps/singer solos.",
-      "videoReference": "link"
+      "videoReference": "https://youtu.be/_a4wx5GsVXk?si=I8LC_OUySLwKx4fI"
     }
   ]
 }

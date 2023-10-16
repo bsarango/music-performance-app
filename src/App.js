@@ -17,7 +17,7 @@ function App() {
     .then(songs=>setSongList(songs))
   },[])
 
-  function updateSongList(newSong){
+  function addNewSong(newSong){
     setSongList(...songList,newSong)
   }
 
@@ -37,7 +37,7 @@ function App() {
             <PerformanceList songList={songList} />
           </Route>
           <Route path="/submitForm">
-            <SongSubmitForm addNewSong={updateSongList}/>
+            <SongSubmitForm addNewSong={addNewSong}/>
           </Route>
         </div>
       </Switch>

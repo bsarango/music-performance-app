@@ -21,7 +21,7 @@ function PerformanceList({songList}){
     })
 
     return(
-        <div className="performanceContainer">
+        <div className="performancecontainer">
             <h1>Song List</h1>
             <h2>Select a Song for additional info, notes, and cues</h2>
             {songsToDisplay}

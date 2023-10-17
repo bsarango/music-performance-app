@@ -12,12 +12,12 @@ function SongDetails(){
     },[])
 
     return(
-        <div>
+        <div className="SongContainer">
             <h2>Current Song Details</h2>
             <h3>{selectedSong.name}</h3>
             <h3>{selectedSong.artist}</h3>
             <h3>{selectedSong.songKey}</h3>
-            <h4>{selectedSong.playerNotes}</h4>
+            <h4 className="playerNotes">{selectedSong.playerNotes}</h4>
             <a href={selectedSong.videoReference}> A Video For Reference!</a>
         </div>
     )

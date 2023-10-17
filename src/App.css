@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: gray;
 }
 
 .App-logo {
@@ -35,4 +36,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.SongContainer {
+  display: inline-block;
+  padding: 20px;
+
+
+
+}
+
+.playerNotes {
+  color: whitesmoke;
+  display: flex;
+  text-align: center;
+  margin: 50px 70px 20px;
+  font-size: medium;
 }

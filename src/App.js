@@ -34,7 +34,7 @@ function App() {
             <SongDetails/>
           </Route>
           <Route exact path="/performanceList">
-            <PerformanceList songList={songList} />
+            <PerformanceList songList={songList}/>
           </Route>
           <Route path="/submitForm">
             <SongSubmitForm addNewSong={addNewSong}/>

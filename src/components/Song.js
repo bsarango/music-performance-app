@@ -8,6 +8,7 @@ function Song({id, name, songKey, artist}){
             <h3>{songKey}</h3>
             <h3>{artist}</h3>
             <Link to={`/performanceList/${id}`}>{name}</Link>
+            <br></br>
         </div>   
     )
 }

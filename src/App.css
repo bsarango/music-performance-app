@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-color: gray;
 }
 
 .App-logo {
@@ -38,12 +37,14 @@
   }
 }
 
+.homeContainer {
+  margin: 50px 50px 50px;
+}
+
 .SongContainer {
-  display: inline-block;
-  padding: 20px;
-
-
-
+  display:flexbox;
+  margin: 20px 50px 20px;
+  background-color:cadetblue;
 }
 
 .playerNotes {
@@ -52,4 +53,16 @@
   text-align: center;
   margin: 50px 70px 20px;
   font-size: medium;
+}
+
+.performanceContainer {
+  display:block;
+  margin: 20px 50px 20px;
+  background-color:aliceblue;
+}
+
+.songObject {
+  display:grid;
+  margin: 20px 50px 20px;
+  background-color:darkgoldenrod;
 }

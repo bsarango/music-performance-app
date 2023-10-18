@@ -9,7 +9,7 @@ function PerformanceList({songList}){
     })
 
     return(
-        <div className="performancecontainer">
+        <div className="performanceContainer">
             <h1>Song List</h1>
             <h2>Select a Song for additional info, notes, and cues</h2>
             {songsToDisplay}

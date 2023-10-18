@@ -7,10 +7,10 @@ function NavBar(){
         display: "inline-block",
         width: "50px",
         padding: "12px",
-        margin: "0 6px 6px",
-        background: "light blue",
+        margin: "6px 6px 6px",
+        background: "lightblue",
         textDecoration: "none",
-        color: "black"
+        color: "yellow"
     }
 
     return(

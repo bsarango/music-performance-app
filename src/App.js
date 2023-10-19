@@ -25,7 +25,7 @@ function App() {
     <div>
       <NavBar/>
       <Switch>
-        <div className="App">
+        
           <Route exact path ="/">
             App
             <Home/>
@@ -39,7 +39,7 @@ function App() {
           <Route path="/submitForm">
             <SongSubmitForm addNewSong={addNewSong}/>
           </Route>
-        </div>
+        
       </Switch>
     </div>
   );

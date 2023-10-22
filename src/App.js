@@ -18,7 +18,7 @@ function App() {
   },[])
 
   function addNewSong(newSong){
-    setSongList(...songList,newSong)
+    setSongList([...songList,newSong])
   }
 
   return (

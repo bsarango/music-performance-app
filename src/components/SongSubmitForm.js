@@ -40,7 +40,7 @@ function SongSubmitForm({addNewSong}){
     }
 
     return(
-        <div>
+        <div className="submitForm">
             <h2>Input your a New Song to Your Performance List</h2>
             <h4>Add all the basic info, your own personal notes to follow, and a Link to the Song for reference!</h4>
             <form onSubmit = {handleSubmit}>

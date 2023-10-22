@@ -46,6 +46,7 @@
   display:flexbox;
   margin: 20px 50px 20px;
   background-color:cadetblue;
+  text-align: center;
 }
 
 .playerNotes {
@@ -60,10 +61,16 @@
   display:block;
   margin: 20px 50px 20px;
   background-color:aliceblue;
+  text-align:center;
 }
 
 .songObject {
   display:grid;
   margin: 20px 50px 20px;
   background-color:darkgoldenrod;
+  text-align:center;
+}
+
+.submitForm{
+  text-align:center;
 }
